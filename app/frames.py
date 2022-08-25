@@ -26,40 +26,40 @@ class TemperaturePage(ttk.Frame):
 	def __init__(self, master):
 		ttk.Frame.__init__(self, master)
 		
-		ttk.Label(self, text="Temperatures").pack()
+		ttk.Button(self, text='Home Page', width=25, command=lambda: master.change_frame(HomePage)).pack(pady=(15, 15))
 
 
 class AnglePage(ttk.Frame):
 	def __init__(self, master):
 		ttk.Frame.__init__(self, master)
 		
-		ttk.Label(self, text="Angle").pack()
+		ttk.Button(self, text='Home Page', width=25, command=lambda: master.change_frame(HomePage)).pack(pady=(15, 15))
 
 
 class AreaPage(ttk.Frame):
 	def __init__(self, master):
 		ttk.Frame.__init__(self, master)
 		
-		ttk.Label(self, text="Area").pack()
+		ttk.Button(self, text='Home Page', width=25, command=lambda: master.change_frame(HomePage)).pack(pady=(15, 15))
 
 
 class CurrencyPage(ttk.Frame):
 	def __init__(self, master):
 		ttk.Frame.__init__(self, master)
 		
-		ttk.Label(self, text="Currencies").pack()
+		ttk.Button(self, text='Home Page', width=25, command=lambda: master.change_frame(HomePage)).pack(pady=(15, 15))
 
 
 class TimeZonePage(ttk.Frame):
 	def __init__(self, master):
 		ttk.Frame.__init__(self, master)
 		
-		ttk.Label(self, text="Timezones").pack()
+		ttk.Button(self, text='Home Page', width=25, command=lambda: master.change_frame(HomePage)).pack(pady=(15, 15))
 
 
 class Duration(ttk.Frame):
 	def __init__(self, master):
 		ttk.Frame.__init__(self, master)
 		
-		ttk.Label(self, text="Duration").pack()
+		ttk.Button(self, text='Home Page', width=25, command=lambda: master.change_frame(HomePage)).pack(pady=(15, 15))
 		
